@@ -15,7 +15,6 @@ def format_subscription(sub: dict) -> str:
     cycle = sub.get("cycle", "monthly")
     category = sub.get("category", "General")
     
-    # Flexibly match any variation of the renewal date key
     renewal = "N/A"
     for key, val in sub.items():
         if key.lower().replace(" ", "").replace("_", "") in ["renewaldate", "renewdate", "renewal"]:
@@ -23,4 +22,4 @@ def format_subscription(sub: dict) -> str:
                 renewal = str(val)
                 break
 
-    return f"{name} - ${cost:.2f} ({cycle}) | Category: {category} | Renews: {renewal}"
+    return f"{name} - Rs. {cost:.2f} ({cycle}) | Category: {category} | Renews: {renewal}"
