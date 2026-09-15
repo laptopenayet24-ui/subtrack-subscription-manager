@@ -1,7 +1,7 @@
 import json
 filename = "subscriptions_data.json"
 
-def save_data(data: dict):
+def save_data(data):
     with open(filename, "w") as file:
         json.dump(data, file, indent=4)
 #----------------------------------------------------------------------------------------------------------------------------------------

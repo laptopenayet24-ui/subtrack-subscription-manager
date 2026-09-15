@@ -4,7 +4,9 @@ from services.subscription_manager import ( initialize_app,add_new_subscription,
 
 def main():
     print("Welcome to SubTrack Subscription Manager")
-    user = initialize_app()
+    custom_username = input("Enter your username: ").strip()
+    user = initialize_app(custom_username)
+
     
     while True:
         print("--- Menu ---")
