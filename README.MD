@@ -70,8 +70,7 @@ There's no separate automated test suite yet — for now, verify the program wor
 3. Delete the subscription you just added — confirm it no longer appears in the list.
 4. Add two or three subscriptions with different cycles and confirm "View Financial Summary" totals them correctly.
 5. Enter an invalid menu choice (e.g. `9`) — confirm the program shows an error and re-displays the menu instead of exiting.
-## Screenshots
-*(Add a screenshot or two of the menu and financial summary in action here — optional, but it helps show the program actually runs.)*
+
  
 ## Author
 Built as a personal project to practice Python fundamentals — file handling, dictionaries, and JSON persistence — without relying on external libraries.
