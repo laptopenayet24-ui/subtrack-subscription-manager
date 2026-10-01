@@ -74,4 +74,6 @@ There's no separate automated test suite yet — for now, verify the program wor
  
 ## Author
 Built as a personal project to practice Python fundamentals — file handling, dictionaries, and JSON persistence — without relying on external libraries.
+
+Done by Enayet Ali
  
